@@ -32,7 +32,6 @@ variable "logging" {
     target_prefix = string
   })
   description = "Optional configuration for logging access to the bucket."
-  default = {}
 }
 
 variable "lifecycle_rules" {
